@@ -1,5 +1,4 @@
 scikit-learn
 streamlit
-yfinance
 pickle
 pandas
