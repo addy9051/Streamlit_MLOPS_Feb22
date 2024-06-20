@@ -7,9 +7,9 @@ import pickle
 #streamlit header
 st.header('Cars24 Price Prediction App')
 
-#df = pd.read_csv("C:/Users/ankit/PycharmProjects/StreamlitTutorial/cars24-car-price.csv")
+df = pd.read_csv("cars24-car-price.csv")
 
-#st.dataframe(df)
+st.dataframe(df)
 
 
 seller_type = st.selectbox(
